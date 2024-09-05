@@ -27,15 +27,33 @@
             padding: 1rem;
             width: 200px;
         }
-        .content {
+        .container {
             flex: 1;
             padding: 1rem;
+            background-color: #e2e2e2;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Witamy na Mojej Stronie</h1>
+    </header>
+    <main>
+        <div class="sidebar">
+            <p>To jest lewy sidebar.</p>
+        </div>
+        <div class="container">
+            <p>To jest główna zawartość strony.</p>
+        </div>
+        <div class="sidebar">
+            <p>To jest prawy sidebar.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Stopka &copy; 2024</p>
+    </footer>
+</body>
+</html>
     </header>
     <main>
         <div class="sidebar">
